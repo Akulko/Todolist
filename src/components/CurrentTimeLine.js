@@ -8,6 +8,7 @@ const CurrentTime = styled.span`
   position: absolute;
   display: block;
   left: 40px;
+  height: 0;
   z-index: 20;
   border-top: 2px solid #db4437;
 `;

@@ -24,7 +24,7 @@ const Wrapper = styled.div`
     ${props => (props.width ? 100 / (props.width + 1) : 100)}% - 40px
   );
   margin-bottom: 0;
-  height: ${props => (props.height > 0 ? props.height + "px" : "25px")};
+  height: ${props => (props.height >= 39 ? props.height + "px" : "39px")};
   margin-top: ${props => props.margin + "px"};
   z-index: 10;
   position: absolute;
@@ -33,7 +33,7 @@ const Wrapper = styled.div`
 const Button = styled.button`
   padding: 0;
   margin: 0 2px;
-  font-size: 11px;
+  font-size: 0.9rem;
   color: #a3c2e0;
   height: 50%;
   width: 40px;
