@@ -1,0 +1,30 @@
+{
+  "name": "counter",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "animate-css-styled-components": "0.0.20",
+    "eslint": "^4.19.1",
+    "eslint-config-react": "^1.1.7",
+    "font-awesome": "^4.7.0",
+    "moment": "^2.22.0",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-fontawesome": "^1.6.1",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.1",
+    "redux": "^3.7.2",
+    "styled-components": "^3.2.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "prettier": "prettier --write ./**/*.js"
+  },
+  "devDependencies": {
+    "prettier": "^1.11.1"
+  }
+}
